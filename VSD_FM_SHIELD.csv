@@ -1,0 +1,4 @@
+"Id";"Designator";"Footprint";"Quantity";"Designation";"Supplier and ref";
+1;"SW6,SW5,SW4,SW1,SW3,SW2";"SW_SPST_Omron_B3FS-105xP";6;"SW_Omron_B3FS";;;
+2;"U2";"MOD-nRF8001";1;"MOD-nRF8001";;;
+3;"U1";"VSDSquadron_FM";1;"VSDSquadron FM";;;
