@@ -1,1 +1,1 @@
-# VSDSquadron_FM_Shield_nRF8011
+# VSDSquadron_FM_Shield_nRF8001
