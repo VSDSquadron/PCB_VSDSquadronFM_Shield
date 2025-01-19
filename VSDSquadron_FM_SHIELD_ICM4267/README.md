@@ -18,3 +18,5 @@ The following table outlines the pin connections for the ICM4267:
 | AP_SDO       | Pin 21         |
 | INT1         | Pin 23         |
 | INT2         | Pin 25         |
+
+![Image](./production/VSDSquadron_FM_SHIELD_ICM4267_TOP.jpg)
