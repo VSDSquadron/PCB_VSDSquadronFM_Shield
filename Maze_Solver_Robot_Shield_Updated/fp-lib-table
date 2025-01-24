@@ -1,0 +1,13 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "CAPC2012X135N")(type "KiCad")(uri "C:/Users/acer/Downloads/VSDSQFM Shield Contest/library/footprints/CAPC2012X135N.pretty")(options "")(descr ""))
+  (lib (name "VSDsquadron_FM")(type "KiCad")(uri "C:/Users/acer/Downloads/VSDSQFM Shield Contest/library/footprints/VSDsquadron_FM.pretty")(options "")(descr ""))
+  (lib (name "CAPC0603X33N")(type "KiCad")(uri "C:/Users/acer/Downloads/VSDSQFM Shield Contest/library/footprints/CAPC0603X33N.pretty")(options "")(descr ""))
+  (lib (name "LED_APT2012EC")(type "KiCad")(uri "C:/Users/acer/Downloads/VSDSQFM Shield Contest/library/footprints/LED_APT2012EC.pretty")(options "")(descr ""))
+  (lib (name "WL-SMCC_0603_INGAN")(type "KiCad")(uri "C:/Users/acer/Downloads/VSDSQFM Shield Contest/library/footprints/WL-SMCC_0603_INGAN.pretty")(options "")(descr ""))
+  (lib (name "FUSC3115X66N")(type "KiCad")(uri "C:/Users/acer/Downloads/VSDSQFM Shield Contest/library/footprints/FUSC3115X66N.pretty")(options "")(descr ""))
+  (lib (name "SAMTEC_SS5-40-3.00-X-D-K-XX")(type "KiCad")(uri "C:/Users/acer/Downloads/VSDSQFM Shield Contest/library/footprints/SAMTEC_SS5-40-3.00-X-D-K-XX.pretty")(options "")(descr ""))
+  (lib (name "JST_B16B-PH-K-S_LF__SN_")(type "KiCad")(uri "C:/Users/acer/Downloads/VSDSQFM Shield Contest/library/footprints/JST_B16B-PH-K-S_LF__SN_.pretty")(options "")(descr ""))
+  (lib (name "SAMTEC_MTMM-102-03-T-S-121")(type "KiCad")(uri "C:/Users/acer/Downloads/FPGA_SHIELD_DESIGN_PROJECT/Custom_Library/footprints/SAMTEC_MTMM-102-03-T-S-121.pretty")(options "")(descr ""))
+  (lib (name "SENSOR_QTR-1A_REFLECTANCE_SENSOR")(type "KiCad")(uri "C:/Users/acer/Downloads/FPGA_SHIELD_DESIGN_PROJECT/Custom_Library/footprints/SENSOR_QTR-1A_REFLECTANCE_SENSOR.pretty")(options "")(descr ""))
+)
