@@ -32,7 +32,7 @@ Custom PCB shield design for maze-solving robotics navigation system.
 - `components-list.csv`: Bill of Materials
 - `circuit-diagram.pdf`: Schematic diagram
 - `project-preview.jpeg`: Project visualization
-- Project files: Complete KiCad project folder
+- Project files: Complete KiCad project folder files
 
 ### Documentation
 - `README.md`: Project overview and documentation
