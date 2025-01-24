@@ -402,7 +402,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C965799"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -418,7 +418,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/cab5f015-9f33-4c05-a0d1-6e8386189123")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -806,7 +806,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C965799"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -822,7 +822,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/fd9e878f-f411-4291-a2ba-fb28a6999bc6")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -990,7 +990,7 @@
 	(footprint "kibuzzard-679249C3"
 		(layer "F.Cu")
 		(uuid "2093c179-5015-4846-97c7-dd90c277aaba")
-		(at 126.4 110.1)
+		(at 126.25 110.45)
 		(descr "Generated with KiBuzzard")
 		(tags "kb_params=eyJBbGlnbm1lbnRDaG9pY2UiOiAiQ2VudGVyIiwgIkNhcExlZnRDaG9pY2UiOiAiKCIsICJDYXBSaWdodENob2ljZSI6ICIpIiwgIkZvbnRDb21ib0JveCI6ICJVYnVudHVNb25vLUIiLCAiSGVpZ2h0Q3RybCI6IDAuOCwgIkxheWVyQ29tYm9Cb3giOiAiRi5TaWxrUyIsICJMaW5lU3BhY2luZ0N0cmwiOiAxLjUsICJNdWx0aUxpbmVUZXh0IjogIlBNT0QgQWRhcHRvciBTaGllbGQiLCAiUGFkZGluZ0JvdHRvbUN0cmwiOiAxLjAsICJQYWRkaW5nTGVmdEN0cmwiOiAyLjUsICJQYWRkaW5nUmlnaHRDdHJsIjogMi41LCAiUGFkZGluZ1RvcEN0cmwiOiAxLjAsICJXaWR0aEN0cmwiOiAwLjAsICJhZHZhbmNlZENoZWNrYm94IjogZmFsc2UsICJpbmxpbmVGb3JtYXRUZXh0Ym94IjogZmFsc2UsICJsaW5lb3ZlclN0eWxlQ2hvaWNlIjogIlNxdWFyZSIsICJsaW5lb3ZlclRoaWNrbmVzc0N0cmwiOiAxfQ==")
 		(property "Reference" "kibuzzard-679249C3"
@@ -1001,6 +1001,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1012,6 +1013,7 @@
 			(effects
 				(font
 					(size 0.001 0.001)
+					(thickness 0.15)
 				)
 			)
 		)
@@ -1561,7 +1563,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6332196"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -1577,7 +1579,7 @@
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/ee7cdf84-3a8a-4df1-8248-a334fcd21c3e")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5 -1.68)
@@ -1997,7 +1999,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C380337"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2013,7 +2015,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/7e2993f6-6212-41a9-b012-fb45dc0db5b1")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -2379,7 +2381,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C965799"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2395,7 +2397,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/21ad3b2d-8930-42c2-a170-454173fbe010")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -2785,7 +2787,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C172477"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2800,7 +2802,7 @@
 		)
 		(path "/c0e4bbc3-a827-4270-b2cd-9b7326d297d0")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_poly
 			(pts
@@ -4095,7 +4097,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C309681"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4109,9 +4111,9 @@
 			)
 		)
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
-		(path "/aad11987-69a6-4aa9-b0a0-247a80b094ea")
+		(path "/a56ac1b1-a279-418c-965c-cb61db78ff4f")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5 1.68)
@@ -4531,7 +4533,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6332196"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4547,7 +4549,7 @@
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/d8724ba8-7834-4873-acda-3940d9654029")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5 -1.68)
@@ -4967,7 +4969,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C965799"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -4983,7 +4985,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/bb1bbbca-dded-4d97-8ebe-a9d3ac62db77")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -5371,7 +5373,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C965799"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5387,7 +5389,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/aaa9c944-abd9-4874-bcfc-bfcd22e8fdc9")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
@@ -5772,7 +5774,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "IPCP254F12PB28R"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5788,7 +5790,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/2f63b610-d4e5-4c4e-94ce-ce17c2ffc833")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.87 14.03)
@@ -6327,7 +6329,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C1713"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6343,7 +6345,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/d337364b-5e0f-4305-8d08-3ee25dce43e7")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -6709,7 +6711,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C965799"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -6725,7 +6727,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/0ab49e3a-bc07-47dc-9927-8268de9e8547")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 6.41)
@@ -7156,7 +7158,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C965799"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7172,7 +7174,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/cc9ac00b-ee15-4413-809c-c12e181dbd91")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -7557,7 +7559,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "IPCP254F12PB28R"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -7573,7 +7575,7 @@
 		(property ki_fp_filters "Connector*:*_2x??_*")
 		(path "/409c84d1-3dee-43c1-a43f-75de1302b703")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -1.33 -1.33)
@@ -8112,7 +8114,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C309681"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8128,7 +8130,7 @@
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/a215b118-f48d-41e3-9e0e-502a9af37205")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5 1.68)
@@ -8548,7 +8550,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6332196"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -8564,7 +8566,7 @@
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/472e08db-7453-464c-bb51-41c35b10db1f")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5 -1.68)
@@ -8984,7 +8986,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C6332196"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9000,7 +9002,7 @@
 		(property ki_fp_filters "DIP* SOIC* R*Array*Concave* R*Array*Convex* MSOP*")
 		(path "/29454221-8432-49fa-acac-313b465fb15c")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.5 -1.68)
@@ -9420,7 +9422,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C965799"
 			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -9436,7 +9438,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/e16d0412-446a-4dc2-a3a5-d373ab51027e")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.8 -0.735)
@@ -9841,7 +9843,7 @@
 		(property ki_fp_filters "SOT?223*TabPin2*")
 		(path "/75fda643-3a65-4643-a9d2-ae66540be54e")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.91 3.41)
@@ -10271,7 +10273,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C965799"
 			(at 0 0 -90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -10287,7 +10289,7 @@
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
 		(path "/ffafcaf5-921b-44b8-a202-18a693f488d5")
 		(sheetname "Root")
-		(sheetfile "VSD_FM_multi_pmod.kicad_sch")
+		(sheetfile "VSD_FM_PMOD_Adaptor.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.485 0.735)
