@@ -29,15 +29,26 @@ Contains KiCad files for a shield compatible with the VSDSquadron FM FPGA board.
 | D7         | Pin 47         |
 | D8         | Pin 48         |
 | PMOD J1 1  | Pin 2          |
-| PMOD J1 2  | Pin 2          |
-| PMOD J1 3  | Pin 2          |
-| PMOD J1 4  | Pin 2          |
+| PMOD J1 2  | Pin 4          |
+| PMOD J1 3  | Pin 9          |
+| PMOD J1 4  | Pin 11         |
 | PMOD J1 5  | GND            |
 | PMOD J1 6  | +3.3V          |
-| PMOD J1 7  | Pin 2          |
-| PMOD J1 8  | Pin 2          |
-| PMOD J1 9  | Pin 2          |
-| PMOD J1 10 | Pin            |
+| PMOD J1 7  | Pin 3          |
+| PMOD J1 8  | Pin 6          |
+| PMOD J1 9  | Pin 10         |
+| PMOD J1 10 | Pin 12         |
 | PMOD J1 11 | GND            |
 | PMOD J1 12 | +3.3V          |
 | PMOD J2 1  | Pin 27         |
+| PMOD J2 2  | Pin 25         |
+| PMOD J2 3  | Pin 21
+| PMOD J2 4  | Pin 18         |
+| PMOD J2 5  | GND            |
+| PMOD J2 6  | +3.3V          |
+| PMOD J2 7  | Pin 26         |
+| PMOD J2 8  | Pin 23         |
+| PMOD J2 9  | Pin 19         |
+| PMOD J2 10 | Pin 13         |
+| PMOD J2 11 | GND            |
+| PMOD J2 12 | +3.3V          |
