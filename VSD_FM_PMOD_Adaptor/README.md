@@ -11,3 +11,7 @@ Contains KiCad files for a shield compatible with the VSDSquadron FM FPGA board.
 **Board Top**
 
 ![Image](./production/VSD_FM_PMOD_Adaptor-t.png)
+
+**Board Bottom**
+
+![Image](./production/VSD_FM_PMOD_Adaptor-b.png)
