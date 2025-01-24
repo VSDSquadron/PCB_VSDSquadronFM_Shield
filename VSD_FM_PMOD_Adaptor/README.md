@@ -18,7 +18,7 @@ Contains KiCad files for a shield compatible with the VSDSquadron FM FPGA board.
 
 **ICE40UP5K FPGA pinout mapping**
 
-| **Name**   | **Pin Number** |
+| **Name**   | **VSD FM_Pin** |
 |------------|----------------|
 | D1         | Pin 38         |
 | D2         | Pin 42         |
@@ -29,3 +29,15 @@ Contains KiCad files for a shield compatible with the VSDSquadron FM FPGA board.
 | D7         | Pin 47         |
 | D8         | Pin 48         |
 | PMOD J1 1  | Pin 2          |
+| PMOD J1 2  | Pin 2          |
+| PMOD J1 3  | Pin 2          |
+| PMOD J1 4  | Pin 2          |
+| PMOD J1 5  | GND            |
+| PMOD J1 6  | +3.3V          |
+| PMOD J1 7  | Pin 2          |
+| PMOD J1 8  | Pin 2          |
+| PMOD J1 9  | Pin 2          |
+| PMOD J1 10 | Pin            |
+| PMOD J1 11 | GND            |
+| PMOD J1 12 | +3.3V          |
+| PMOD J2 1  | Pin 27         |
