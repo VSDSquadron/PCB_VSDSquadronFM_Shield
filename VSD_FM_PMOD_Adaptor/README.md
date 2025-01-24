@@ -15,3 +15,9 @@ Contains KiCad files for a shield compatible with the VSDSquadron FM FPGA board.
 **Board Bottom**
 
 ![Image](./production/VSD_FM_PMOD_Adaptor-b.png)
+
+**ICE40UP5K FPGA pinout mapping
+| **Pin Name** | **Pin Number** |
+|--------------|----------------|
+| D1        | Pin 38         |
+| D2       | Pin 42         |
