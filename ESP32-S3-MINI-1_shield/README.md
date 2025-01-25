@@ -1,4 +1,6 @@
-![Screenshot (692)](https://github.com/user-attachments/assets/79eb0846-71fb-40d5-9943-f3b465bc3e13)![Screenshot (684)](https://github.com/user-attachments/assets/c689b0a2-a5b3-4608-be09-0d71d03188f7)# VSD Squadron FM ESP32-S3-MINI-1 Shield
+![image](https://github.com/user-attachments/assets/bd5329f1-600e-4edb-9fac-200765b2f2e1)
+
+# VSD Squadron FM ESP32-S3-MINI-1 Shield
 
 This repository contains the design files and instructions for creating a production-level PCB shield that connects the ESP32-PICO-D4 with the VSDSquadron FPGA Mini. This documentation outlines the design process, connections, and resources used.
 
@@ -64,7 +66,7 @@ The combination of ESP32 and FPGA can be employed as a data logger for various e
 
 ## Design Procedure
 
-1. **Schematic Creation**: 
+# 1. **Schematic Creation**: 
    - The schematic was created using KiCad 8.0.8, ensuring all components were correctly placed and connected.
   a) Open KiCad and go to create new project.
   ![Screenshot (671)](https://github.com/user-attachments/assets/7670cab4-b8e4-48a9-b267-8c78d2960c0a)
@@ -181,18 +183,18 @@ Note: Above image corresponds to the upadated schematic
   ![Screenshot (686)](https://github.com/user-attachments/assets/f7197f0c-2c74-4509-9c76-91c7e91a1353)
 
 ---
-
-## Notes
+### Notes
 - Ensure all components are rated for the operating voltage and current.
 - Properly label all pins and connectors for ease of debugging and testing.
+---
 
-2. **PCB Layout**: 
-   - After finalizing the schematic, the PCB layout was designed considering optimal component placement and routing.
-   
+# 2. **PCB Layout**: 
+   - After finalizing the schematic, the PCB layout was designed considering optimal component placement and routing. 
   a) After zero errors by DRC check go back to home page of KiCad and choose PCB editor option.
   ![Screenshot (687)](https://github.com/user-attachments/assets/f9b83712-6164-434c-abf3-e2aa38aec83f)
   b) Ensure that you have installed the following plugins.
   ![Screenshot (742)](https://github.com/user-attachments/assets/6ef817d3-d00a-4653-88e4-df536e5a58a0)
+  
 ## PCB Creation Steps
 
 ### Step 1: Defining Board Setup
@@ -216,7 +218,7 @@ Note: Above image corresponds to the upadated schematic
       
 5. **Define the pre-defined sizes**
     - Open the `pre-defined sizes` section in the dropdown.
-    - Introduce your sizes (Here i am refering to the [Lion Circuits Capabilities]([https://www.lioncircuits.com](https://www.lioncircuits.com/pcb-manufacturing-capabilities))
+    - Introduce your sizes ,here i am refering to the [Lion Circuits Capabilities]([https://www.lioncircuits.com](https://www.lioncircuits.com/pcb-manufacturing-capabilities))
       ![Screenshot (692)](https://github.com/user-attachments/assets/5948abb5-b49f-4f11-bbec-3c4f07fd8de2)
 ### Step 2: Create PCB from Schematic
    - Open the PCB Editor
@@ -225,8 +227,113 @@ Note: Above image corresponds to the upadated schematic
      ![Screenshot (694)](https://github.com/user-attachments/assets/7bdb3bf4-6e97-4c8f-9058-385393998df7)
      ![Screenshot (695)](https://github.com/user-attachments/assets/d24b9592-fde3-407e-b109-f8b91ae4d8c0)
 
-4. **Design Rules Check**: 
-   - A thorough design rules check (DRC) was performed using guidelines from Lion Circuits capabilities to ensure manufacturability.
+### Step 3: PCB Layout Design
+
+Note: The Images provided will be slightly changed in the final product
+1. **Component Placement**
+- Place all components on the board:
+  - Ensure the antenna of the ESP32-S3 module is properly oriented away from interference sources (e.g., ground planes, large components).
+  - Position the LDO regulator (AMS1117-3.3) close to the power pins to minimize voltage drops and ensure stable power delivery.
+  - Keep decoupling capacitors as close as possible to the ESP32 power pins.
+   ![Screenshot (696)](https://github.com/user-attachments/assets/81587667-f4a3-41d0-983d-bc8f145a9b79)
+
+2. **Routing Paths**
+- Start routing traces for the board:
+  - Make boundary using line or rectangle tool.
+  - Use wider traces for power and ground lines to reduce resistance (recommended 0.4 mm or more for main power lines).
+  - Minimize the number of via points in critical traces to reduce impedance.
+  - Optimize routing for signal integrity, ensuring shorter traces for high-speed signals.
+   ![Screenshot (704)](https://github.com/user-attachments/assets/f42c51c5-d118-4a0c-8444-b0882941a679)
+   ![Screenshot (705)](https://github.com/user-attachments/assets/d95f8af8-8ad5-4305-8ad3-f5b80c81bb1d)
+
+3. **Create Via Points for Pin 61**
+- According to ESP32-S3 documentation, ensure a proper via connection for Pin 61 to enhance thermal and electrical conductivity.
+   ![Screenshot (763)](https://github.com/user-attachments/assets/eb67f7a8-edf2-43a8-bde0-ffecbb92f4d5)
+
+4. **Modify ESP32-S3 Footprint**
+- Edit the ESP32-S3 footprint to remove the default keep-out area:
+  ![Screenshot (713)](https://github.com/user-attachments/assets/5c96afcc-0b49-4159-bcd2-66a92959c5a5)
+  ![Screenshot (714)](https://github.com/user-attachments/assets/cf6e53f4-8716-4d9b-87cd-daf4cc28c51e)
+  - Use the footprint editor in KiCad to delete the keep-out area.
+    ![Screenshot (715)](https://github.com/user-attachments/assets/be27f24b-05ba-4205-aed1-daa0c78f0ecd)
+  - Create new boundaries as per the layout requirements.
+    ![Screenshot (715)](https://github.com/user-attachments/assets/b369fd96-fde9-48ef-a861-009c9287d3e5)
+    ![Screenshot (718)](https://github.com/user-attachments/assets/c8bda2be-4115-4a17-9fdb-0c835537663d)
+    ![Screenshot (721)](https://github.com/user-attachments/assets/03feb5b4-4c9a-4657-aa72-c7a51d8331a6)
+  - Also delete the `keep-out area` text and then save it.
+    
+5. **Copper Zones**
+- Define copper zones for power and ground planes:
+  - Create a copper zone for GND on the **F.Back** layer (Draw out the zone such that antenna is not compromised).    
+  - Create a copper zone for 3.3V on the **F.Front** layer.
+  - Press the **B** key to refill zones and ensure proper coverage.
+   ![Screenshot (708)](https://github.com/user-attachments/assets/d05c1b9a-cd6b-4241-9af3-32589318cde8)
+   ![Screenshot (709)](https://github.com/user-attachments/assets/bc7d669c-153b-4b64-987f-0312ad1c2973)
+
+6. **Run Design Rule Check (DRC)**
+- Perform a DRC to identify errors and unconnected nets:
+  ![Screenshot (710)](https://github.com/user-attachments/assets/b28ec7e7-5b65-42dd-b600-9ab0dd2ba562)
+  - Address all errors until zero remain.
+    ![Screenshot (714)](https://github.com/user-attachments/assets/20b45aca-f522-41a1-98a1-c02c12b12dfd)
+    (i.e. above error is due to boundaries i created in incorrect layer so i need to chenge the layer only by selecting the property of the boundary)
+  - Ignore warnings related to the ESP32 library change due to the keep-out area modification.
+
+7. **Refine the Layout**
+- Improve the layout based on DRC results:
+  - Adjust component placement and trace routing to minimize crossovers and optimize signal paths.
+  - Ensure adequate spacing between traces to meet design rules.
+  ![Screenshot (766)](https://github.com/user-attachments/assets/44ff0f00-f638-49d1-8305-f0f3dd38cc3f)
+  ![Screenshot (775)](https://github.com/user-attachments/assets/9fe44051-34a5-48f3-861f-fb6c61296878)
+---
+###Note: Above image corresponds to the end result
+   ![Screenshot 2025-01-25 064759](https://github.com/user-attachments/assets/a66a7f38-cfbd-43e1-9fa7-35c62c24b707)
+---
+
+8. **Add Labels**
+- Use the KiBuzzard plugin to create labels:
+  - Label all pins, connectors, and critical signals for clarity and ease of debugging (as i have deleted the default labels)
+   ![Screenshot (734)](https://github.com/user-attachments/assets/930d7fe2-8904-46df-ad58-adc938d6f5de)
+   ![Screenshot (739)](https://github.com/user-attachments/assets/50826e49-10ed-4063-9849-22a1e2e8b5df)
+
+9. **Final DRC Check**
+- Run a final DRC check to ensure no errors are present and the layout is ready for production.
+- Exclude the footprint mismatch warning
+   ![Screenshot (732)](https://github.com/user-attachments/assets/345b096e-65b3-400b-97f3-85d1c90f7e24)
+   ![Screenshot (774)](https://github.com/user-attachments/assets/829f515f-3a6a-4a89-8eb8-2574569cb51e)
+
+10. **Generate Production Files**
+- Use the JLCPCB plugin to generate production files:
+  - Export Gerber files, drill files, and pick-and-place files for manufacturing by just clicking the plugin and runing `Generate`.
+   ![Screenshot (773)](https://github.com/user-attachments/assets/dbe6dab5-8dc7-423d-be9c-1e35e7c8c5c7)
+  - A new pop-up window will appear with directory of your project.
+   ![Screenshot (747)](https://github.com/user-attachments/assets/7594a220-3740-4c38-beb4-af4677dd1ffa)
+
+11. **Edit Field Symbols in the Schematic**
+- Add a new field named `LCSC` to the schematic:
+  - Back to your schematic editor open the `Edit the symbol field` option in toolbar and create new field with name `LCSC`
+    ![Screenshot (775)](https://github.com/user-attachments/assets/2aec5bd7-ce98-4c6e-afe2-6902156c3df2)
+    ![Screenshot (760)](https://github.com/user-attachments/assets/d84178d0-3089-41c5-b4a4-37466e458ccb)
+  - Copy part numbers from the LCSC website for all components used.
+  - Update the BOM with these details by applying the changes and press `Ok`.
+    ![Screenshot (762)](https://github.com/user-attachments/assets/49dfa59c-33e5-406e-ba10-b5e2f099da55)
+
+12. **Verify Changes in BOM**
+- Check the `bom.csv` file in production directory of your project for the latest component information:
+  ![Screenshot (776)](https://github.com/user-attachments/assets/fe63ad15-997a-4c77-904e-b49a5f972968)
+  - Ensure all parts have the correct LCSC part numbers and descriptions.
+   ![Screenshot (777)](https://github.com/user-attachments/assets/95c480b7-9f2e-4e4a-9d73-08f18c6dcdd3)
+
+With this your PCB is production ready.
+You can also view your PCB in 3D viewer option available in View option in toolbar.
+![Screenshot (778)](https://github.com/user-attachments/assets/a746a1d4-678c-496b-88a3-4e5ad3a835a3)
+![Screenshot (779)](https://github.com/user-attachments/assets/b96270f3-3b1f-4bc3-be38-53185e52cfc3)
+
+---
+## Notes
+- Ensure the antenna area remains free from copper fills or nearby components.
+- Verify component orientation and placement against the schematic before generating production files.
+- Use high-quality components to ensure long-term reliability.
+---
 
 ## Connections Overview
 
@@ -262,10 +369,10 @@ The ESP32-PICO-D4 shield for VSDSquadron FPGA Mini opens up numerous possibiliti
 - [KiCad Documentation](https://www.kicad.org/documentation/)
 - [Lion Circuits Capabilities](https://www.lioncircuits.com)
 - [JLPCB Plugin for KiCad](https://github.com/jlpcb/jlpcb-kicad-plugin)
+- [LCSC Website](https://www.lcsc.com/)
+  
+For any issue or missing component, review!
 
-For any questions or contributions, feel free to open an issue or submit a pull request!
 
-
-
-
-Author: Aaryan Sharma
+## Author: 
+Aaryan Sharma
