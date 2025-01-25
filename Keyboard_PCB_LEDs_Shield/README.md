@@ -74,19 +74,19 @@ Key Features:
 * Compact design with minimal interference.
 
 ## 6. ERC and DRC Checks
-ERC (Electrical Rule Check): Verified for schematic consistency and correct pin configurations.
-DRC (Design Rule Check): Passed for trace clearances, via sizes, and other manufacturing constraints.
+- ERC (Electrical Rule Check): Verified for schematic consistency and correct pin configurations.
+- DRC (Design Rule Check): Passed for trace clearances, via sizes, and other manufacturing constraints.
 
 ## 7. 3D Viewer
-The 3D viewer in KiCad provides a realistic preview of the PCB, showing component placement and board dimensions.
-Use the 3D Viewer feature in KiCad to visualize your design before manufacturing.
+- The 3D viewer in KiCad provides a realistic preview of the PCB, showing component placement and board dimensions.
+- Use the 3D Viewer feature in KiCad to visualize your design before manufacturing.
 
 ## 8. Bill of Materials (BOM)
 A detailed BOM is included, listing all components:
 
-Mechanical Switches: Compatible with MX-style switches.
-LEDs: WS2812B addressable LEDs.
-Download the BOM file: BOM.csv (include if available).
+- Mechanical Switches: Compatible with MX-style switches.
+- LEDs: WS2812B addressable LEDs.
+- Download the BOM file: BOM.csv (include if available).
 
 ## 9. Applications
 * Custom mechanical keyboards for enthusiasts.
@@ -101,10 +101,10 @@ This project is licensed under the MIT License.
 ---
 
 ## 11. Author 
-Bilwa Ghisad
+- Bilwa Ghisad
 
-Email: bilwaghisad@gmail.com
-GitHub: Githubforbilwa
+- Email: bilwaghisad@gmail.com
+- GitHub: Githubforbilwa
 
 
 
