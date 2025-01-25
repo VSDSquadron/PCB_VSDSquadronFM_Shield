@@ -55,9 +55,9 @@ This project focuses on designing a shield using VSDSquadron FM library. The shi
 The schematic outlines the matrix design for key switches, LED drivers, and VSDSquadron FM connections.
 
 Key Features:
-Matrix configuration for keyboard rows and columns.
-Integrated LED drivers for lighting control.
-Connection to the VSDSquadron FM framework.
+* Matrix configuration for keyboard rows and columns.
+* Integrated LED drivers for lighting control.
+* Connection to the VSDSquadron FM framework.
 
 ---
 
@@ -69,9 +69,9 @@ Front Copper Layer:
 Back Copper Layer:
 
 Key Features:
-Carefully routed traces for LED control.
-Footprints for standard MX-style mechanical switches.
-Compact design with minimal interference.
+* Carefully routed traces for LED control.
+* Footprints for standard MX-style mechanical switches.
+* Compact design with minimal interference.
 
 ## 6. ERC and DRC Checks
 ERC (Electrical Rule Check): Verified for schematic consistency and correct pin configurations.
@@ -89,9 +89,9 @@ LEDs: WS2812B addressable LEDs.
 Download the BOM file: BOM.csv (include if available).
 
 ## 9. Applications
-Custom mechanical keyboards for enthusiasts.
-Prototyping for keyboard manufacturers.
-Learning resource for PCB design and firmware development.
+* Custom mechanical keyboards for enthusiasts.
+* Prototyping for keyboard manufacturers.
+* Learning resource for PCB design and firmware development.
 
 ---
 
