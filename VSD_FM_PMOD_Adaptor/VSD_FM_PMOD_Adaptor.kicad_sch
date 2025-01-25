@@ -6,9 +6,9 @@
 	(paper "A4")
 	(title_block
 		(title "PMOD Adaptor for VSDSquadron FM Shield")
-		(date "2025-01-12")
+		(date "2025-01-25")
 		(rev "1A")
-		(company "VLSI System Design")
+		(company "David Brough-Smyth")
 	)
 	(lib_symbols
 		(symbol "Connector:Conn_01x03_Pin"
