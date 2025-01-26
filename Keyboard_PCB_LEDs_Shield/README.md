@@ -97,9 +97,10 @@ A detailed BOM is included, listing all components:
 ---
 
 ## 10. References 
-https://github.com/ebastler/marbastlib
+- https://github.com/ebastler/marbastlib
 
-Referred keyboard layout:
+- Referred keyboard layout for the complete design:
+
 ![Referred_keyboard_layout](https://github.com/user-attachments/assets/9ab065c1-98ef-491e-b0b7-72acb6d3723a)
 
 
