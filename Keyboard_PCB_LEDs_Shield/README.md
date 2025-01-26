@@ -98,6 +98,7 @@ A detailed BOM is included, listing all components:
 
 ## 9. Applications
 * Applications of the Mechanical Keyboard PCB Using LEDs and VSDSquadron FM
+  
  **1. Custom Mechanical Keyboards**
 
 - Perfect for mechanical keyboard enthusiasts looking to build personalized keyboards with customizable layouts and lighting effects.
