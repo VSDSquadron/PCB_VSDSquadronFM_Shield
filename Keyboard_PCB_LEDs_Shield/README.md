@@ -33,7 +33,7 @@ This project focuses on designing a shield using VSDSquadron FM library. The shi
 - Matrix scanning technology for efficient key detection.
 - Expandable design for use in gaming, productivity, or assistive devices.
 
-The project covers a complete PCB development workflow, including schematic creation, footprint assignment, layout design, electrical rule checks (ERC), design rule checks (DRC), 3D visualization, and generating a bill of materials (BOM). It is ideal for enthusiasts, educators, and professionals seeking to create high-performance, customizable keyboards for various applications.
+The project covers a complete PCB development workflow, including schematic creation, footprint assignment, layout design, electrical rule checks (ERC), design rule checks (DRC), 3D visualization, and generating a bill of materials (BOM). It is ideal for educators, and professionals seeking to create high-performance, customizable keyboards for various applications.
 
 ---
 
