@@ -87,7 +87,7 @@ A detailed BOM is included, listing all components:
 
 - Mechanical Switches: Compatible with MX-style switches.
 - LEDs: WS2812B addressable LEDs.
-- Download the BOM file: BOM.csv (include if available).
+- Download the BOM file: bom.csv (https://github.com/Githubforbilwa/VSDSquadron_FM_Shield/blob/main/Keyboard_PCB_LEDs_Shield/production/bom.csv).
 
 ## 9. Applications
 * Custom mechanical keyboards for enthusiasts.
