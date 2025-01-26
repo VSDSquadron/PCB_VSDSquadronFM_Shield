@@ -36,9 +36,9 @@ This project focuses on designing a shield using VSDSquadron FM library. The shi
 
 - **KiCad EDA 8.0.7**: For schematic capture, PCB layout, and 3D rendering.
 - **VSDSquadron FM**: For firmware development.
-- Additional software for BOM generation and assembly.
-- Additional Libraries from Plugin and Content Manager.
-- ? Info about  libs used ?
+- **JLC PCB Fabrication Toolkit**: Additional software for BOM generation and assembly.
+- **Kibuzzard**: Additional Library from Plugin and Content Manager.
+  
 
 ---
 
@@ -90,9 +90,73 @@ A detailed BOM is included, listing all components:
 - Download the BOM file: bom.csv (https://github.com/Githubforbilwa/VSDSquadron_FM_Shield/blob/main/Keyboard_PCB_LEDs_Shield/production/bom.csv).
 
 ## 9. Applications
-* Custom mechanical keyboards for enthusiasts.
-* Prototyping for keyboard manufacturers.
-* Learning resource for PCB design and firmware development.
+* Applications of the Mechanical Keyboard PCB Using LEDs and VSDSquadron FM
+1. Custom Mechanical Keyboards
+
+- Perfect for mechanical keyboard enthusiasts looking to build personalized keyboards with customizable layouts and lighting effects.
+- Allows users to experiment with unique key arrangements, switch types, and features.
+  
+2. Gaming Keyboards
+
+- With support for addressable LEDs, this PCB can be used to create high-performance gaming keyboards with vibrant RGB lighting effects synchronized to gameplay.
+- Provides low-latency response and macro programming for competitive gaming.
+
+3. Educational Tool
+
+ A great learning platform for electronics students and hobbyists to understand:
+- PCB design and manufacturing.
+- Matrix scanning in keyboards.
+- Firmware development using VSDSquadron FM.
+- Encourages exploration of embedded systems and hardware programming.
+  
+4. Prototyping for Manufacturers
+
+- Can be used by keyboard manufacturers to prototype new designs or test features such as dynamic lighting or alternative layouts before mass production.
+  
+5. IoT and Smart Device Integration
+
+- The PCB can be adapted to serve as an input interface for smart home devices or IoT systems.
+- Useful for creating smart keyboards that connect to various devices via Bluetooth, Wi-Fi, or USB.
+
+6. Assistive Technology Devices
+
+- Customizable layouts and programmable firmware make it suitable for assistive devices tailored for individuals with disabilities.
+
+7. Interactive Art Installations
+
+- The RGB LED integration enables the PCB to be used in art installations requiring interactive lighting effects triggered by key presses.
+
+8. Workstation Productivity Tools
+
+- Custom PCBs can enable keyboards designed for professional workflows (e.g., CAD, video editing, programming), with macro keys and lighting for task-specific functions.
+
+9. Hobby Projects
+
+- Suitable for DIY projects or hobbyists exploring keyboard customization, firmware development, and soldering.
+
+10. Retro Keyboard Recreation
+
+- Recreate retro-style keyboards with modern functionality while maintaining classic aesthetics, enhanced by programmable lighting.
+
+11. Portable Keyboards for Mobile Devices
+
+- Design compact, portable keyboards for smartphones, tablets, or laptops, leveraging low-power designs and ergonomic layouts.
+
+12. Open-Source Hardware Development
+    
+- Encourage the open-source hardware community to build upon the design by contributing new layouts, firmware features, or modular add-ons.
+
+13. Teaching STEM Concepts
+    
+- Use the project as a hands-on STEM education resource to teach principles of electronics, circuit design, software programming, and human-computer interaction.
+
+14. Creative Studio Tools
+    
+- Develop keyboards optimized for creative professionals, such as video editors, or graphic designers, with configurable shortcuts and interactive lighting for inspiration.
+
+15. Ergonomic Keyboard Prototypes
+    
+- Enable the creation of ergonomic keyboard layouts optimized for comfort and reduced strain during long hours of typing.
 
 ---
 
