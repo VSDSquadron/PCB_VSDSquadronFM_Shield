@@ -27,15 +27,15 @@ Custom PCB shield design for maze-solving robotics navigation system.
 ## Repository Contents
 
 ### Design Files
-- `submission.zip`: Gerber manufacturing files
-- `component-placement.csv`: Pick and place file
-- `components-list.csv`: Bill of Materials
-- `circuit-diagram.pdf`: Schematic diagram
-- `project-preview.jpeg`: Project visualization
-- Project files: Complete KiCad project folder files
+- `FPGA_SHIELD_DESIGN_PROJECT.zip`: Gerber manufacturing files
+- `positions.csv`: Pick and place file
+- `bom.csv`: Bill of Materials
+- `schematic.pdf`: Schematic diagram
+- `FPGA_SHIELD_DESIGN_PROJECT_TOP.jpeg`: Project visualization
+- 
 
 ### Documentation
-- `README.md`: Project overview and documentation
+- `README.md`: Project overview 
 
 ## Author
 Brijesh Ahirwar
