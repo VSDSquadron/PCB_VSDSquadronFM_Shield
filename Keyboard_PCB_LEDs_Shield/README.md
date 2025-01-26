@@ -48,7 +48,7 @@ This project focuses on designing a shield using VSDSquadron FM library. The shi
    Download and install from the official [KiCad website](https://www.kicad.org).
 
    Open the project:
-   Load the .pro file in KiCad to access the schematic and PCB design files.
+   Load the .kicad_pro file in KiCad to access the schematic and PCB design files.
 
 ---
 
