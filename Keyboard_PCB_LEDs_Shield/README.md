@@ -16,9 +16,10 @@ This project focuses on designing a shield using VSDSquadron FM library. The shi
 7. [3D Viewer](#3d-viewer)
 8. [Bill of Materials (BOM)](#bill-of-materials-bom)
 9. [Applications](#applications)
-10. [License](#license)
-11. [Author](#author)
-
+10. [References](#references)
+11. [License](#license) 
+12. [Author](#author)
+    
 ---
 
 ## 1. Project Overview
@@ -95,12 +96,17 @@ A detailed BOM is included, listing all components:
 
 ---
 
-## 10. License
+## 10. References 
+https://github.com/ebastler/marbastlib
+
+---
+
+## 11. License
 This project is licensed under the MIT License.
 
 ---
 
-## 11. Author 
+## 12. Author 
 - Bilwa Ghisad
 
 - Email: bilwaghisad@gmail.com
