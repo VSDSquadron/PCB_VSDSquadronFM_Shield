@@ -18,12 +18,12 @@ The custom PCB shield connects to an VSD-FPGA MINI development board and highlig
 ---
 Front view 
 --
-![Image](https://github.com/user-attachments/assets/073fb61d-120d-4e3f-b58d-2ad49a3cff77)
+
 
 
 Bottom View
 ---
-![Image](https://github.com/user-attachments/assets/42729351-7f22-4f01-b3f9-2af8fd28fecd)
+
 
 Side view
 ---
