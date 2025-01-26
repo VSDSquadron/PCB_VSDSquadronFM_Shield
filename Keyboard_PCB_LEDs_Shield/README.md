@@ -65,6 +65,7 @@ Key Features:
 * Matrix configuration for keyboard rows and columns.
 * Integrated LED drivers for lighting control.
 * Connection to the VSDSquadron FM framework.
+* Checkout the components and pin connections in Schematic.pdf (https://github.com/Githubforbilwa/VSDSquadron_FM_Shield/blob/main/Keyboard_PCB_LEDs_Shield/production/Schematic.pdf)
 
 ---
 
