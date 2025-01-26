@@ -71,9 +71,10 @@ Key Features:
 ## 5. PCB Layout
 The PCB layout ensures optimal routing and signal integrity while accommodating all components.
 
-Front Copper Layer:
-
-Back Copper Layer:
+**Summary of Layer Synergy:**
+The **F.Cu layer** is used for signal routing and active components, while the **B.Cu layer** supports grounding, power distribution, and auxiliary signal routing.
+Both layers are designed to complement each other, ensuring efficient signal flow, reduced noise, and optimized manufacturing processes.
+This dual-layer strategy results in a highly functional, durable, and reliable PCB for the mechanical keyboard.
 
 Key Features:
 * Carefully routed traces for LED control.
