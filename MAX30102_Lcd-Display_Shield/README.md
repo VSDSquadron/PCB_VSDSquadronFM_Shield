@@ -16,3 +16,14 @@ The custom PCB shield connects to an VSD-FPGA MINI development board and highlig
 - **Custom PCB Design**: Compact shield designed in KiCad with high-efficiency power delivery.
 
 ---
+Front view 
+--
+
+
+Bottom View
+---
+
+
+Side view
+---
+
