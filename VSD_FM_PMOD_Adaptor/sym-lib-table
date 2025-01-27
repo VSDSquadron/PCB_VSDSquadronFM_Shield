@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "VSDSquadron_FM")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/VSDSquadron_FM.kicad_sym")(options "")(descr ""))
+  (lib (name "ICM-42670-P")(type "KiCad")(uri "${KIPRJMOD}/library/symbols/ICM-42670-P.kicad_sym")(options "")(descr ""))
+)
