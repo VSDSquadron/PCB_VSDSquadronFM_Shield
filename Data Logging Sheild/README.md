@@ -5,6 +5,7 @@ This Industrial Data Logging and Communication Shield is designed for versatilit
 
 - **RS-485 Communication**: A robust and widely used industrial standard for long-distance, noise-resistant communication.
 - **MicroSD Storage**: Reliable and expandable data storage for logging critical operational and sensor data.
+  
 The custom PCB shield connects to an VSD-FPGA MINI development board and highlights real-time data acquisition and display capabilities.
 
 ---
