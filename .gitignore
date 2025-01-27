@@ -32,3 +32,9 @@ fp-info-cache
 *.xml
 *.json
 
+# User added
+
+*auto_saved_files#
+tmp
+*.log
+*.rpt
